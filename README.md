@@ -15,7 +15,7 @@ Details: https://wiki.itcollege.ee/index.php/Category:I600_Introduction_to_Compu
 First clone the repository to your computer via Git. Following commands are for Linux and Mac.
 ```sh
 git clone https://github.com/aadityaparashar/led-iot
-cd iot-led
+cd led-iot
 ```
 
 ### On your machine
