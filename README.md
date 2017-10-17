@@ -28,9 +28,9 @@ then browse to http://localhost:8080/
 
 ### On ESP32
 
-To transfer the boot and main files from your home folder to the ESP32
-Use: ampy -p /dev/ttyUSB0 put FileName.py
+To transfer the boot and main files from your home folder to the ESP32, use:
 
-Replace FileName with main or boot respecively
+ampy -p /dev/ttyUSB0 put main.py
+ampy -p /dev/ttyUSB0 put boot.py
 
 NB! Upload the main.py before boot.py , as in some cases the boot.py causes issues with the serial connection (after it connects to the wifi)
